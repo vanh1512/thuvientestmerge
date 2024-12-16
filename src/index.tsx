@@ -18,19 +18,6 @@ import HistoryHelper from '@lib/historyHelper';
 declare var abp: any;
 
 Utils.setLocalization();
-// let params = new URLSearchParams(window.location.search);
-// const _token = params.get('token');
-// const _path = params.get('path');
-// if(_token){
-//   const token = String(_token);	
-//   abp.auth.setToken(token, new Date(new Date().getTime() + 1000 * 86400));
-//   if(abp.session.userId){
-//     if(_path){
-//       const path = decodeURIComponent(_path);
-//       HistoryHelper.redirect(path)
-//     }
-//   }
-// }
 abpUserConfigurationService.getAll().then(async data => {
 
 	Utils.extend(true, abp, data.data.result);
