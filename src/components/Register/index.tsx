@@ -109,5 +109,11 @@ export default class Register extends React.Component<IRegisterProps> {
 				</Col>
 			</Row>
 		);
+<<<<<<< HEAD
 	}hon luy
 }HGHGHGHG
+=======
+	}
+}abcahcbhahj
+hjdajdajhdabh
+>>>>>>> origin/main
