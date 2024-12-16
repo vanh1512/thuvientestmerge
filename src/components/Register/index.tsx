@@ -108,4 +108,4 @@ export default class Register extends React.Component<IRegisterProps> {
 			</Row>
 		);
 	}
-}
+}HGHGHGHG

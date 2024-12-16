@@ -68,15 +68,4 @@ abpUserConfigurationService.getAll().then(async data => {
 		}
 	}
 
-
-	ReactDOM.render(
-		<Provider {...stores}>
-			<BrowserRouter>
-				<App />
-			</BrowserRouter>
-		</Provider>,
-		document.getElementById('root') as HTMLElement
-	);
-
-	registerServiceWorker();
-});
+HON LUY
