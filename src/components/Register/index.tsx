@@ -24,7 +24,6 @@ export default class Register extends React.Component<IRegisterProps> {
 		rePassword: undefined,
 	}
 	// luu
-	onSave = async () => {
 		const form = this.formRef;
 		const self = this;
 		form.current?.validateFields().then(async (values: any) => {
