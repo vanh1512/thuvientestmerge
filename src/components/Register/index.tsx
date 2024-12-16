@@ -40,6 +40,8 @@ export default class Register extends React.Component<IRegisterProps> {
 				message.success(L('RegisterSuccessfully'));
 				if (self.props.onSuccessRegister !== undefined) {
 					self.props.onSuccessRegister();
+
+
 				}
 			}
 		});
@@ -107,5 +109,5 @@ export default class Register extends React.Component<IRegisterProps> {
 				</Col>
 			</Row>
 		);
-	}
+	}hon luy
 }HGHGHGHG
