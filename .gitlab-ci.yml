@@ -1,0 +1,10 @@
+stages: 
+- build 
+- test 
+- deploy 
+# Build Stage 
+build: 
+stage: build image: 
+node:14 
+script: - npm install - npm run build 
+artifacts: paths: - build/

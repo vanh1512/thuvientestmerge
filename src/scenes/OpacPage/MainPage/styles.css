@@ -1,0 +1,22 @@
+.colTitle:hover {
+    transform: translateY(-7px);
+    transition: transform 0.2s ease;
+    color: #fff;
+    
+  }
+  .colTitle{ 
+    border-radius: 20px;
+  }
+.btnNavbar {
+ background-color: #1da57a;
+  border: 0px;
+  color: #fff;
+}
+.btnNavbar:hover{
+  background-color: #7777;
+  color: #fff;
+}
+table, th,td {
+  border:1px solid black;
+  text-align: center;
+}

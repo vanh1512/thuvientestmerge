@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.ant-table-thead>tr>th {
+    background-color: #1da57a !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 600;
+}
+
+.ant-tabs-tab {
+    margin-right: 20px !important;
+}
+
+.ant-table-tbody>tr>td {
+    height: 10px !important;
+}
+
+.centerTable .ant-table-thead>tr>th {
+    text-align: center !important;
+}
+
+.centerTable .ant-table-tbody>tr>td {
+    text-align: center !important;
+}
+
+.bg-folder {
+    background-color: #f2f6fc;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-red {
+    background-color: rgb(255, 0, 0);
+}
+
+.bg-click {
+    background-color: #d8e6df;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.bg-red-display {
+    color: red !important;
+}
+
+.bg-DataDisplay-click {
+    background-color: #4198a9 !important;
+    color: white !important;
+}
+
+.dislplayBlock {
+    display: block !important;
+}
+
+.ant-upload-list-item-actions a {
+    pointer-events: auto !important;
+    opacity: 1 !important;
+}
+
+.avatar_attachment .ant-upload-list-picture-card-container {
+    width: 200px !important;
+    height: 225px !important;
+}
+
+.custom_ckeditor .ck-editor__editable {
+    min-height: 300px !important;
+}
+
+.hiddenDelete .ant-upload-list-item-actions button {
+    display: none !important;
+}
+
+.hiddenDelete .ant-upload-list-item-card-actions button {
+    display: none !important;
+}
+
+.hiddenEye .ant-upload-list-item-actions a {
+    display: none !important;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item-info::before {
+    left: 0 !important;
+}
+
+.textAlign-col-1200 {
+    text-align: right;
+}
+
+.row-dragging {
+    background: #d8e6df;
+    border: 1px solid #ccc;
+}
+
+.row-dragging td {
+    padding: 16px;
+}
+
+.row-dragging .drag-visible {
+    visibility: visible;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .textAlign-col-1200 {
+        text-align: left;
+    }
+}
+
+.textAlign-col-992 {
+    text-align: right;
+}
+
+@media screen and (max-width: 992px) {
+
+    .textAlign-col-992 {
+        text-align: left;
+    }
+}
+
+.textAlign-col-768 {
+    text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+
+    .textAlign-col-768 {
+        text-align: left;
+    }
+}
+
+.textAlign-col-576 {
+    text-align: right;
+}
+
+@media screen and (max-width: 576px) {
+
+    .textAlign-col-576 {
+        text-align: left;
+    }
+}
+
+.flex-form {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-form {
+        display: block;
+    }
+}
+
+@media print {
+
+    /* Set the page to landscape orientation */
+    @page {
+        size: Portrait;
+    }
+
+    /* Set the scale to fit the content to the printable area */
+    body {
+        transform: scale(1);
+        /* Adjust the scale as needed */
+        transform-origin: top left;
+    }
+}
+
+
+.upload-list-inline .ant-upload-list-item {
+    float: left;
+    margin-right: 8px;
+}
+
+.upload-list-inline [class*='-upload-list-rtl'] .ant-upload-list-item {
+    float: right;
+}
+
+.ant-avatar-string {
+    transform: scale(1) !important;
+    translate: -50% !important;
+}
+
+.ant-breadcrumb .ant-breadcrumb-link:hover {
+    cursor: pointer;
+    background-color: #d8e6df;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        /* Các quy tắc CSS cho màn hình nhỏ ở đây */
+        /* Ví dụ: chuyển đổi sang chế độ ngang */
+        transform: rotate(90deg);
+        overflow-x: hidden;
+        /* Ẩn thanh cuộn ngang */
+        position: fixed;
+        /* Giữ nguyên vị trí */
+    }
+}
+
+.textAlignCenter-col-992px {
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .textAlignCenter-col-992px {
+        text-align: start;
+    }
+}
+
+.textAlignCenter-col-768px {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .textAlignCenter-col-768px {
+        text-align: start;
+    }
+}
