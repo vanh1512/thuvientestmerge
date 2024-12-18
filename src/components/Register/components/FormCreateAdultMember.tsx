@@ -8,7 +8,6 @@ import { RegisterOutput, RegisterMemberInput } from "@services/services_autogen"
 import { FormInstance } from "antd/lib/form";
 import SelectEnum from "@src/components/Manager/SelectEnum";
 import { eGENDER } from "@src/lib/enumconst";
-import moment, { Moment } from "moment";
 import rules from "@src/scenes/Validation";
 
 
