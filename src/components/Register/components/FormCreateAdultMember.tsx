@@ -12,7 +12,6 @@ import moment, { Moment } from "moment";
 import rules from "@src/scenes/Validation";
 
 
-export interface IRegisterProps {ssSAs
 	onSuccessRegister: () => void;
 	onCancel?: () => void;
 }
